@@ -113,16 +113,6 @@
     transform: translateY(0);
   }
 }
-/*@keyframes hexinfu1*/
-/*{*/
-/*  from {top:-1rem;opacity: 0}*/
-/*  to {top:0rem;opacity: 1}*/
-/*}*/
-/*@-webkit-keyframes hexinfu1 !*Safari and Chrome*!*/
-/*{*/
-/*  from {top:1rem;opacity: 0}*/
-/*  to {top:0rem;opacity: 1}*/
-/*}*/
   .mywez {
     /*text-align: center;*/
     position: relative;
@@ -190,7 +180,7 @@
 .qgck_linehexinfuwu{
   width: 5rem;
   height: 2px;
-  background-color: #01b053;
+  background-color: #46a976;
   margin: 1rem auto;
 }
   .hexinfuwuwz {
@@ -231,23 +221,12 @@
     transform: translateY(0);
   }
 }
-/*@keyframes hexinfu12*/
-/*{*/
-/*  from {top:3rem;opacity: 0}*/
-/*  to {top:2rem;opacity: 1}*/
-/*}*/
-/*@-webkit-keyframes hexinfu12 !*Safari and Chrome*!*/
-/*{*/
-/*  from {top:3rem;opacity: 0}*/
-/*  to {top:2rem;opacity: 1}*/
-/*}*/
-
 .hexinfuwuwz span{
-  color: #01b053;
+  color: #46a976;
 
 }
   .dadukongzhi{
-    color: #01b053;
+    color: #46a976;
     letter-spacing: 0.3rem;
     text-align: left;
     font-size: 1.4rem;
