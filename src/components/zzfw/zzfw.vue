@@ -139,7 +139,7 @@
   .zzfwline{
     width: 5rem;
     height: 2px;
-    background-color: #01b053;
+    background-color: #46a976;
     margin: 1rem auto;
   }
   .imgjuzhong{

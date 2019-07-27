@@ -64,7 +64,6 @@
             this.mycounts = 3;
           },
           mycall(){
-            // console.log('aaaaa')
             this.classdong = 'beijingbandonghua1'
             switch(this.mycounts){
               case 1:
@@ -166,7 +165,7 @@
       margin-top: 1rem;
   }
   .xiaoyuandian{
-    background-color: #05cb94;
+    background-color: #46a976;
     width: 12px;
     height: 12px;
     position: absolute;
@@ -183,7 +182,7 @@
   }
   .talkbg{
     width: 100%;
-    background-color: #04cb94;
+    background-color: #46a976;
   }
   .talkkuang{
     width: 75rem;
