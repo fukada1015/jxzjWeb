@@ -39,7 +39,7 @@
 <style>
 .newtopbg{
   width: 100%;
-  background-color: #39c195;
+  background-color: #46a976;
   padding-bottom: 5rem;
   z-index: -1;
   position: absolute;

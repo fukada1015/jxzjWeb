@@ -109,7 +109,7 @@
   .qgck_line{
     width: 5rem;
     height: 2px;
-    background-color: #01b053;
+    background-color: #46a976;
     margin: 1rem auto;
   }
   .qgck_fbtz{
@@ -175,7 +175,7 @@
 
 #serve-img-area .point-area .point-dot {
   z-index: 1;
-  background-color: #04cb94;
+  background-color: #46a976;
   border: 1px solid rgba(1, 176, 83, 0.37);
 }
 #serve-img-area .point-area .point-10 {
@@ -191,7 +191,7 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 2px solid #01b053;
+  border: 2px solid #46a976;
   opacity: 0;
   -webkit-animation: ripple 4500ms ease-out 225ms infinite;
   -moz-animation: ripple 4500ms ease-out 225ms infinite;
@@ -212,7 +212,7 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 2px solid #01b053;
+  border: 2px solid #46a976;
   opacity: 0;
   -webkit-animation: ripple 4500ms ease-out 900ms infinite;
   -moz-animation: ripple 4500ms ease-out 900ms infinite;
@@ -233,7 +233,7 @@
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 2px solid #01b053;
+  border: 2px solid #46a976;
   opacity: 0;
   -webkit-animation: ripple 4500ms ease-out 1800ms infinite;
   -moz-animation: ripple 4500ms ease-out 1800ms infinite;
@@ -256,7 +256,7 @@ lesshat-selector {
 .aliyun-index-serve-2016 .module-wrap .ali-main-serve-head h1 {
   text-align: center;
   font-size: 24px;
-  color: #01b053;
+  color: #46a976;
 }
 
 .

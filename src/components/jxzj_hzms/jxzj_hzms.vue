@@ -31,7 +31,7 @@
   .hzms1{
     margin: 0 auto;
     letter-spacing: 0.2rem;
-    color: #01b053;
+    color: #46a976;
     text-align: center;
     font-size: 1.6rem;
     font-family: zxfont;
@@ -73,7 +73,7 @@
   .hzms_line{
     width: 5rem;
     height: 2px;
-    background-color: #01b053;
+    background-color: #46a976;
     margin: 1rem auto;
   }
 .hzmsimg img{

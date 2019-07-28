@@ -319,7 +319,7 @@
     font-family: zxfont;
   }
   .biansel:hover p{
-    color: #04cb94;
+    color: #46a976;
   }
   .biansel:link, .biansel:hover, .biansel:visited, .biansel:active {
     text-decoration:none;
@@ -329,7 +329,7 @@
     text-align: center;
   }
   .el-pagination li.active {
-    background: #01b053 !important;
+    background: #46a976 !important;
   }
   .searchdiv2 {
     margin-top: 1rem;
@@ -365,7 +365,7 @@
     color: #ddd;
   }
 .rmwz{
-  color: #01b053;
+  color: #46a976;
   font-weight: bold;
   margin-right: 1rem;
 }
@@ -410,7 +410,7 @@
     margin-left: 0.7rem;
   }
   .footer .el-pagination li.active {
-    background: #01b077 !important;
+    background: #46a976 !important;
     color: white !important;
     font-family: zxfont;
   }

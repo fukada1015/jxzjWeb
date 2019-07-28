@@ -226,7 +226,7 @@
     font-size: 0.9rem;
   }
   .dss{
-    color: #01b053;
+    color: #46a976;
     text-align: center;
     font-size: 3.5rem;
     line-height: 3.5rem;
@@ -235,7 +235,7 @@
   .qgck_liney{
     width: 5rem;
     height: 2px;
-    background-color: #01b053;
+    background-color: #46a976;
     margin: 1rem auto;
   }
 </style>

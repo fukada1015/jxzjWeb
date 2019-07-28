@@ -108,7 +108,7 @@
   .zlgys_linex{
     width: 5rem;
     height: 2px;
-    background-color: #01b053;
+    background-color: #46a976;
     margin: 1rem auto;
   }
   .kap{
@@ -167,7 +167,7 @@
   box-shadow: 1px 5px 10px 5px rgba(0, 0, 0, 0.05);
 }
   .ds{
-    color: #01b053;
+    color: #46a976;
     text-align: center;
   }
   .tsz{

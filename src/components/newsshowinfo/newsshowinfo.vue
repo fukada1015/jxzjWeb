@@ -12,7 +12,7 @@
           <el-container>
             <el-header style="border-bottom: 1px solid #ecf0f5">
 
-              <el-menu :default-active="activeIndex"  mode="horizontal" @select="handleSelect" active-text-color="#00b075" text-color="#838383"
+              <el-menu :default-active="activeIndex"  mode="horizontal" @select="handleSelect" active-text-color="#46a976" text-color="#838383"
                        style="width: 100%;">
                 <el-menu-item style="width: 20%;text-align: center" index="1">全部文章</el-menu-item>
                 <el-menu-item style="width: 20%;text-align: center" index="2">内部新闻</el-menu-item>
@@ -333,13 +333,13 @@
     color: #ddd;
   }
   a:hover p{
-    color: #04cb94;
+    color: #46a976;
   }
   a:link, a:hover, a:visited, a:active {
     text-decoration:none;
   }
   .rmwz{
-    color: #04cb94;
+    color: #46a976;
     font-weight: bold;
     margin-right: 1rem;
   }
@@ -365,7 +365,7 @@
     color: #617375;
   }
   .gjzding2 a:hover{
-    color:#04cb94;
+    color:#46a976;
   }
   .rmwzlistt{
     margin-top: 3rem;
@@ -411,7 +411,7 @@
     color: white;
   }
   .bianse5:hover p{
-    color: #04cb94;
+    color: #46a976;
   }
   .bianse5:link, .biansel:hover, .biansel:visited, .biansel:active {
     text-decoration:none;
@@ -428,10 +428,10 @@
     color: #6c7c7d;
   }
   .el-input__inner:focus{
-    border-color: #04cb94;
+    border-color: #46a976;
   }
   .el-pagination.is-background .el-pager li:not(.disabled):hover {
-    color: #04cb94;
+    color: #46a976;
   }
   .searchdiv input{
     width: 12rem;

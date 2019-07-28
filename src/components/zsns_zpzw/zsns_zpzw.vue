@@ -809,10 +809,10 @@
     font-family: zxfont;
   }
   .ydt{
-    background: -webkit-linear-gradient(#26b0b8, #28c2a9); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(#26b0b8, #28c2a9); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(#26b0b8, #28c2a9); /* Firefox 3.6 - 15 */
-    background: linear-gradient(#26b0b8, #28c2a9); /* 标准的语法（必须放在最后） */
+    background: -webkit-linear-gradient(#01b077, #21b69e); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#01b077, #21b69e); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#01b077, #21b69e); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#01b077, #21b69e); /* 标准的语法（必须放在最后） */
     border-radius: 0.4rem;
     padding-bottom: 2.5rem;
   }
@@ -1275,7 +1275,7 @@
   }
 
   .zwtitle{
-    color: #28c2a9;
+    color: #46a976;
     font-size: 1.2rem;
     font-family: zxfont;
   }
@@ -1292,7 +1292,7 @@
   .cptyline-zp{
     width: 5rem;
     height: 2px;
-    background-color: #01b053;
+    background-color: #46a976;
     margin: 1rem auto;
   }
 </style>
