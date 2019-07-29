@@ -2,6 +2,9 @@
     <div>
       <Banner message="1" class="padd"></Banner>
       <coopbanner></coopbanner>
+      <el-row v-show="isShow" class="fixed-layer contrl-display">
+        <Banner message="1"></Banner>
+      </el-row>
       <ywmsline class="ywmsding"></ywmsline>
       <hzmsline class="hzmsdingwei"></hzmsline>
       <zlgys class="zlgysding"></zlgys>
@@ -41,9 +44,28 @@
       },
       data(){
           return{
-
+            isShow:false
           }
-      }
+      },
+       methods:{
+          handleScroll(){
+            // 得到页面滚动的距离
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            if(scrollTop > 80){
+              this.isShow = true;
+            }else{
+              this.isShow = false;
+            }
+            // 判断页面滚动的距离是否大于吸顶元素的位置
+            // this.headerFixed = scrollTop > (this.offsetTop - this.offsetHeight * 2);
+          },
+        },
+        mounted(){
+          window.addEventListener('scroll', this.handleScroll);
+        },
+        destroyed(){
+          window.removeEventListener('scroll', this.handleScroll);
+        },
     }
 </script>
 
@@ -70,5 +92,15 @@
   }
   .hzmsdingwei{
     margin-top: 6rem;
+  }
+  .contrl-display{
+    position: fixed;
+    top: 0;
+  }
+  .fixed-layer{
+    width: 100%;
+    background: #46a976;
+    height: 74px;
+    z-index: 999;
   }
 </style>
