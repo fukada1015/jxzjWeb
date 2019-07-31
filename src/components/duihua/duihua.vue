@@ -16,7 +16,7 @@
           <div ref="beijingban" :class="[classnone,classdong]" style="background-color:white; border-radius: 10px;margin-left: 2rem;position: relative;"@mouseenter="stopset" @mouseleave="playset">
 
             <div class="duihuaneirong" >
-              <p style="color: #01b053; font-family: zfont">{{yonghu}}</p>
+              <p style="color: #01b077; font-family: zfont">{{yonghu}}</p>
               <p class="neirongclass">{{neirong}}</p>
             </div>
             <div class="xiaoyuandian">

@@ -139,11 +139,12 @@
           }
         },
       methods:{
-        // handleSelect(key, keyPath) {
-        //   // this.canshu.mytype = key.toString()
-        //   // this.canshu.cont = '1'
-        //
-        // },
+        handleSelect(key, keyPath) {
+          this.$router.push({
+            path:'/news'
+          })
+        
+        },
         // querySearch(queryString, cb) {
         //   // var restaurants = this.restaurants;
         //   // var results = queryString ? restaurants.filter(this.createFilter(queryString)) : restaurants;
@@ -440,7 +441,7 @@
   .el-input-group{
     width: 90%;
   }
-  .ql-container.ql-snow {
+  .ql-container .ql-snow {
     border: none;
   }
   .containwidth{
